@@ -36,7 +36,7 @@ const Home = () => {
   <div class="hero-text">
     <h1 style={{fontsize:'50px',color:'darkblue'}}>Welcome to Tech World</h1>
     <p style={{color:'brown'}}>Be OverPowerd with Online UPS</p>
-    <button>Get Quote</button>
+        <button onClick={()=>{document.location.assign("/quote")}}>Get Quote</button>
 
 </div>
 
