@@ -1,0 +1,153 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 100vh;
+    /* background-color: #a9d4ac; */
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: row; /* Change to row */
+    justify-content: space-around; /* Align info and image container */
+    width: 100%;
+    margin-top: 6rem;
+  }
+  
+  .info {
+    justify-content: right;
+    margin: 10px 10px 10px 10px;
+    max-width: 55rem;
+    margin-bottom: 20px;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0.5, 0.2, 0.3, 0.6);
+  }
+  
+  .info-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    /* Remove flex-direction property */
+    height: auto;
+    width: 100%;
+    justify-content: right;
+    
+  }
+  
+  .director-image {
+    width: 100%;
+    max-width: 20rem;
+    border: 2px solid #111111;
+    border-radius: 1rem;
+    margin-left: 10%;
+   margin-top: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .social-media {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row; /* Change to column */
+    align-items: center; /* Center align social media icons */
+    justify-content: space-around;
+  }
+  
+  .photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .photos img {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: px solid #111111;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .photo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+  }
+  
+  .photo-name {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+ 
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    .info{
+      align-items: center;
+      min-width: 100%;
+      max-width: auto;
+    }
+    .info-container {
+      flex-direction: column;
+      align-items: center;
+      min-width: 100%;
+      max-width: auto;
+    }
+  
+    .image-container {
+      display: flex;
+      max-width: auto;
+      min-height: 100%;
+    }
+  
+  
+      .director-image {
+        width: auto;
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    
+    .social-media{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  

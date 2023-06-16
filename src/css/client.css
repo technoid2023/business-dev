@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+
+.climain {
+    /* background:rgb(119, 154, 154); */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: scroll;
+    
+}
+
+
+
+.logo-container-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    /* overflow: hidden;  */
+    padding: 30px;
+    box-shadow: 0 14px 10px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0.8%;
+    
+    /* border: 1px outset rgb(0, 0, 0); */
+    /* background-color:red; */
+    /* background-image: transparent;   */
+  
+    /* position: relative;   */
+}
+
+.clisocial {
+    /* margin-top: 70px; */
+    /* display: block; */
+    background-color: rgb(255, 253, 253);
+    /* padding: 8em 2em; */
+    overflow: hidden;
+    
+}
+.clilogo-container img {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  animation: scroll 60s linear infinite;
+}
+@keyframes scroll {
+0% {transform: translateX(0);}
+100% {transform: translatex(-1000%)}
+}
+/* nxt div */
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  div.scroll-container img {
+    padding: 3px;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }

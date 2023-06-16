@@ -1,0 +1,24 @@
+/* Assuming the footer component is wrapped in a container with class 'app-container' */
+.app-container {
+    /* display: flex; */
+    flex-direction: column;
+   
+  }
+  
+  footer {
+    background-color: #333331;
+    color:yellow;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
