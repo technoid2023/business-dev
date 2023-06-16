@@ -34,8 +34,8 @@ const Home = () => {
       
       <img src="assests/home1.jpg"   style={{ height: "28rem" }}class="hero-image" />
   <div class="hero-text">
-    <h1 style={{fontsize:'50px',color:'darkblue'}}>Welcome to Tech World</h1>
-    <p style={{color:'brown'}}>Be OverPowerd with Online UPS</p>
+     <h1 style={{fontsize:'50px',color:'darkblue',fontWeight:'bolder'}}>Welcome to Power Backup System</h1>
+    <p style={{color:'yellow',fontWeight:'bolder',fontsize:'20px'}}>Be OverPowerd with Online UPS</p>
         <button onClick={()=>{document.location.assign("/quote")}}>Get Quote</button>
 
 </div>
