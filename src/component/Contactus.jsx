@@ -100,7 +100,7 @@ const Contactus = () => {
               <li className="list-item">
                 <i className="fa fa-map-marker fa-2x">
                   <span className="contact-text place">
-                    <a href="https://goo.gl/maps/1g2qMpPGssuAjaKT8">City, State</a>{" "}
+                    <a href="https://goo.gl/maps/1g2qMpPGssuAjaKT8">Kolkata,West Bengal</a>{" "}
                   </span>
                 </i>
               </li>
@@ -108,7 +108,7 @@ const Contactus = () => {
                 <i className="fa fa-phone fa-2x">
                   <span className="contact-text phone">
                     <a href="tel:1-212-555-5555" title="Give me a call">
-                      (91) 9999999999
+                      (+91) 9984628742
                     </a>
                   </span>
                 </i>
@@ -117,7 +117,7 @@ const Contactus = () => {
                 <i className="fa fa-envelope fa-2x">
                   <span className="contact-text gmail">
                     <a href="mailto:#" title="Send me an email">
-                      technoid.kolkata@gmail.com
+                     info@powerbackupsystem.com
                     </a>
                   </span>
                 </i>
